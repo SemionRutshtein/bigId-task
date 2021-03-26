@@ -1,0 +1,11 @@
+1. Count of lines in file
+2. Divide line count by 1000 to get the number of thread workers
+    - Divide the line count by 1000 (%) in module operation.
+***  (This will give as the rest of line to be processed)
+3. Use each tread for reading
+
+
+Записать потоки в список.
+Писать их в Джоин, выставить точку окончания по символу конца документа
+Количество будет зависить от формулы Длина документа/1000 + остаток - это последний поток.
+
